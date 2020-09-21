@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "jest": "^26.4.2"
+  },
+  "name": "calc-gacha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "mathjs": "^7.2.0"
+  }
+}
