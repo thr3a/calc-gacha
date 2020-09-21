@@ -20,7 +20,7 @@ test('出現率1%を100回行った時2回以上成功する確率', () => {
   expect(gacha.SuccessProbByHits(2).format()).toBe('26.42%')
 })
 
-test('出現率1%を100回行った時2回以上成功する確率', () => {
+test('出現率1%をX％の確率で手に入れるために必要な回数', () => {
   const gacha = new Gacha(1, 100)
   expect(gacha.anySuccessCount(50)).toBe(69)
 })
