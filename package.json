@@ -5,7 +5,7 @@
   },
   "author": "thr3a",
   "name": "calc-gacha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/gacha.js",
   "license": "MIT",
   "dependencies": {
