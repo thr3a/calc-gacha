@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "eslint": "^7.9.0",
+    "eslint-plugin-jest": "^24.0.2",
     "jest": "^26.4.2"
   },
   "author": "thr3a",
