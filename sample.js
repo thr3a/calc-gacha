@@ -4,8 +4,8 @@ const prob = 1
 const number = 100
 const gacha = new Gacha(prob, number)
 
-console.log(gacha.anySuccessProb().format())
-console.log(gacha.allFailProb().format())
-console.log(gacha.SuccessProbByHit(2).format())
-console.log(gacha.SuccessProbByHits(2).format())
+console.log(gacha.anySuccessProb())
+console.log(gacha.allFailProb())
+console.log(gacha.SuccessProbByHit(2))
+console.log(gacha.SuccessProbByHits(2))
 console.log(gacha.anySuccessCount(87))
